@@ -1,16 +1,13 @@
-.sidebar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100vh;
-    width: 65px;
-    margin-top: 5px;
-    display: flex;
-    overflow: hidden;
-    flex-direction: column;
-    background-color: #1c1c1c;
-    padding: 20px 20px;
-    border-bottom-right-radius: 20px;
-    border-top-right-radius: 20px;
-    transition: all 0.4s ease;
+body {
+  background-color: powderblue;
+}
+h1 {
+  color: blue;
+  font-family: verdana;
+  font-size: 300%;
+}
+p {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
 }
