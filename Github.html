@@ -34,12 +34,30 @@ https://www.youtube.com/watch?v=r8jQ9hVA2qs&list=PL0lo9MOBetEFcp4SCWinBdpml9B2U2
 Docs:
 https://docs.github.com/en
 
-
-
-git remote add origin https://github.com/your-username/my-first-repo.git
+<!-- Add the GitHub repository as a remote -->
+Links your local repo to the GitHub repo using the name origin.
+- git remote add origin https://github.com/your-username/my-first-repo.git
 
 Ex:
 git remote add origin https://github.com/Whitek4izeR/Github-Tutorial
+
+Check the remote connection or current remote.
+- git remote -v
+
+or
+
+If you need more details:
+- git remote show origin
+
+# It's used for both fetching and pushing changes
+This will give you more detailed information about the remote, including:
+
+a. Fetch URL
+b. Push URL
+c. Remote branches
+
+
+
 
 
 
@@ -50,7 +68,7 @@ B. Open VS Code Web/Dev Sign in using Github Account
 
 
 
-<!-- Upload your code from VS Code Web/Dev/Desktop to Github-->
+<!-- Upload your code from VS Code Web/Dev/Desktop to Github -->
 
 1. Open the Terminal
 - git init
