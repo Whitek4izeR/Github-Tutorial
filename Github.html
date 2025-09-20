@@ -15,3 +15,92 @@ Github Docs and Knowledge Base:
 # https://docs.github.com/en
 
 
+<!-- Create Repository  -->
+- Name:
+
+Settings
+- Pages
+- Branch: Main → wait for 5 min. until it loads your web address / domain
+    Ex: https://whitek4izer.github.io/Github-Tutorial/
+
+<!-- Open VS Code Web  -->
+Go to the repository on your Github → press the period button ( . )
+
+
+<!-- Git / Github Youtube and Docs -->
+Youtube
+https://www.youtube.com/watch?v=r8jQ9hVA2qs&list=PL0lo9MOBetEFcp4SCWinBdpml9B2U25-f
+
+Docs:
+https://docs.github.com/en
+
+
+
+git remote add origin https://github.com/your-username/my-first-repo.git
+
+Ex:
+git remote add origin https://github.com/Whitek4izeR/Github-Tutorial
+
+
+
+<!-- Access first your repository from Github -->
+A. Go to the repository on your Github → press the period button ( . )
+B. Open VS Code Web/Dev Sign in using Github Account
+- Left Pane → Remote Explorer → Open Remote Repository → Open Repository from Github → Select your Repository
+
+
+
+<!-- Upload your code from VS Code Web/Dev/Desktop to Github-->
+
+1. Open the Terminal
+- git init
+
+2. Check Git Status
+This will show your modified, added, or untracked files:
+- git status 
+
+3. Stage Your Changes
+This stages all changes (new folders, files, etc.)
+- git add . 
+
+4. Commit Your Changes 
+- git commit -m "Your commit message here" 
+
+5. Push to GitHub
+Check which branch you're on: 
+- git branch 
+
+Assuming you’re on main (or master):
+- git push origin main
+
+Or 
+
+if you’re on a different branch: 
+git push origin <your-branch-name>
+
+
+
+<!-- Steps to Sync Your VS Code Web Workspace with GitHub -->
+Made some changes in Github[delete/add/update a file or folder]
+To Update in VS Code Desktop/Dev/Web
+
+1. Open the Terminal
+
+2. Fetch Latest Changes
+This downloads any new changes from GitHub without modifying your working directory yet:
+- git fetch origin
+
+3. Pull the Latest Changes
+Assuming you’re on the main branch:
+- git pull origin main
+
+or 
+
+If your branch is different, replace main with your actual branch name:
+- git pull origin <your-branch-name>
+
+Check If the Folder Is Now Deleted
+- git status
+
+
+
